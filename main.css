@@ -1,0 +1,91 @@
+  u{
+    color : red;
+  }
+  body{
+    margin:0;
+  }
+  a{
+    color : gray;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  h1{
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 3px solid gray;
+    margin: 0;
+    padding: 20px;
+  }
+  ul{
+    border-right: 3px gray solid;
+    width:240px;
+    margin: 0;
+    padding:20px;
+  }
+  p dl{
+    margin-bottom : 40px;
+  }
+  #grid ul{
+    padding-left: 30px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 280px 1fr;
+
+  }
+  #article{
+    padding-left: 35px;
+  }
+
+  @media(max-width:928px){
+    #grid{
+      display: block;
+    }
+    ul{
+      border-right: none;
+    }
+    #grid ul{
+      border-bottom: 3px gray solid;
+      width: auto;
+    }
+  }
+  .core{
+    font-size: 40px;
+    color : red;
+  }
+  h4{
+    font-size: 23px;
+  }
+  h3{
+    font-size: 27px;
+  }
+  h2{
+    font-size: 33px;
+  }
+  h5{
+    font-size: 20px;
+  }
+  h6{
+    font-size: 17px;
+  }
+
+  pre {
+				font-family: serif sans-serif;
+				font-size: 20px;
+				tab-size: 4;
+	}
+  dd{
+    font-size: 19px;
+  }
+  dt{
+    font-size: 20px;
+  }
+  #들여쓰기{
+    margin-left:60px;
+  }
+  #크게{
+    font-size: 25px;
+  }
+#진하게 dt{
+  font-weight: bold;
+}
